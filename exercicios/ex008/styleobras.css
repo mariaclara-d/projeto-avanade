@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+:root{
+    --cor1: #A64F03;
+    --Cor2: #402E1E;
+    --Cor3: #592202;
+    --Cor4: #A66E4E;
+    --Cor5: #F24444; 
+
+    --fonte-padrao: 'Bebas Neue', cursive;
+}
+
+
+body{
+    background-color: var(--Cor4);
+    font-family: var(--fonte-padrao);
+    background-image: url(imagens/machado.png);
+    background-repeat: no-repeat;
+ 
+}
+
+section h1{
+   text-align: center;
+   font-size: 50px;
+}
+
+
+section ol{
+    font-size: 30px;
+    text-align: center;
+    list-style-position: inside;
+    
+}
+
+section li>a{
+    text-decoration: none;
+    color: white;
+}
+
+section li>a:hover{
+    background-color: #A64F03;
+}

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --fonte-padrao: 'Open Sans', sans-serif;
+}
+
+body{
+    font-family: var(--fonte-padrao);
+    background-color: #45415A
+}
+
+main{
+    background-color: #fff;
+    margin: 80px ;
+    border-radius: 10px;
+}
+
+main h1{
+    padding: 30px;
+    text-align: center;
+}
+
+main h2{
+    padding: 50px;
+    padding-bottom: 20px;
+}
+
+main h3{
+    padding: 20px;
+    text-align: center;
+    
+}
+
+main p {
+    
+    padding: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: justify;
+    font-size: 20px;
+}
+
+main ol{
+    list-style-position: inside;
+    columns: 2;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer{
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    height: 45px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+
